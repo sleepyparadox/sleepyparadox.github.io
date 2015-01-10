@@ -2,13 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>http://don.sleepyparadox.com/</loc> 
-	<loc>http://don.sleepyparadox.com/#portfolio</loc> 
-	<loc>http://don.sleepyparadox.com/#about</loc> 
-	<loc>http://don.sleepyparadox.com/#contact</loc> 
-	<loc>http://don.sleepyparadox.com/#around</loc>
-	<loc>https://twitter.com/sleepyparadox</loc> 
-	<loc>https://github.com/sleepyparadox</loc> 
-	<loc>https://sleepyparadox.wordpress.com</loc> 
-	<loc>https://au.linkedin.com/pub/don-logan/42/4b9/486</loc>
+  </url>
+  <url>
+    <loc>http://don.sleepyparadox.com/#portfolio</loc> 
+  </url>
+  <url>
+    <loc>http://don.sleepyparadox.com/#about</loc>
+  </url>
+  <url>
+    <loc>http://don.sleepyparadox.com/#contact</loc> 
+  </url>
+  <url>
+    <loc>http://don.sleepyparadox.com/#around</loc>
+  </url>
+  <url>
+    <loc>https://twitter.com/sleepyparadox</loc> 
+  </url>
+  <url>
+    <loc>https://github.com/sleepyparadox</loc> 
+  </url>
+  <url>
+    <loc>https://sleepyparadox.wordpress.com</loc> 
+  </url>
+  <url>
+    <loc>https://au.linkedin.com/pub/don-logan/42/4b9/486</loc>
   </url>
 </urlset>
