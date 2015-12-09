@@ -25,6 +25,6 @@ function initMixpanel()
 	mixpanel.people.set({
 		"$last_login": new Date(),
 	});
-	mixpanel.track("PageLoad", {Page : "index.html"});
+	mixpanel.track("PageLoad", {Page : window.location.href });
 }
 initMixpanel();

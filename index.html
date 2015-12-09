@@ -1,573 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta name="google-site-verification" content="7jHYIcrg1U88YD9egBKq3AlAS8riKQaXAQC4bvXXQwY" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Don Logan - Sleepy Paradox</title>
 
-    <title>Don Logan - Sleepy Paradox</title>
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="startbootstrap-freelancer/css/bootstrap.min.css" rel="stylesheet">
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/portfolio.css" rel="stylesheet">
-	
-    <!-- Custom Fonts -->
-    <link href="startbootstrap-freelancer/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<!-- bootstrap -->
+<link rel="stylesheet" href="cyrus/assets/bootstrap/css/bootstrap.min.css" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!-- animate.css -->
+<link rel="stylesheet" href="cyrus/assets/animate/animate.css" />
+<link rel="stylesheet" href="cyrus/assets/animate/set.css" />
 
-	<meta name="title" content="Don Logan - Sleepy Paradox" />
-	<meta name="description" content="Hi there! I'm Don Logan, an experienced programmer with a passion for game development. My tools of the trade include C#, C++, Python, Unity with which I deploy to PC, Android, iOS, Web and Facebook Canvas." />
-	<link rel="image_src" href="http://don.sleepyparadox.com/img/meta.png" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Don Logan - Sleepy Paradox"/>
-	<meta property="og:site_name" content="Don Logan - Sleepy Paradox"/>
-	<meta property="og:description  " content="Hi there! I'm Don Logan, an experienced programmer with a passion for game development. My tools of the trade include C#, C++, Python, Unity with which I deploy to PC, Android, iOS, Web and Facebook Canvas."/>
-	<meta property="og:image" content="http://don.sleepyparadox.com/img/meta.png"/>
-	
-	<!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+<!-- gallery -->
+<link rel="stylesheet" href="cyrus/assets/gallery/blueimp-gallery.min.css">
+
+<!-- favicon -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+
+<link rel="stylesheet" href="cyrus/assets/style.css">
+
+<!-- start Mixpanel -->
+<script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
 for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
-mixpanel.init("eae1a3eb9979a522223ab073a8ab8d7c");</script><!-- end Mixpanel -->
+mixpanel.init("eae1a3eb9979a522223ab073a8ab8d7c");
+</script>
+<!-- end Mixpanel -->
+
 </head>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Sleepy Paradox</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-					<li class="page-scroll">
-                        <a href="#around">Around the Web</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                        <span class="name">Don Logan</span>
-                        <hr class="star-light">
-                        <span class="skills">Game Programmer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/finalwar.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/vamp.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/macleans.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/slots.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://sleepyparadox.wordpress.com/" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-external-link-square fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/blog.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://github.com/sleepyparadox" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-external-link-square fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/github.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Hi there! I'm Don Logan, an experienced programmer with a passion for game development.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>My tools of the trade include C#, C++, Python, Unity with which I deploy to PC, Android, iOS, Web and Facebook Canvas.</p>
-                </div>
-				<!-- Could be useful later -->
-                <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
-                    <!--<a href="#" class="btn btn-lg btn-outline"> -->
-                        <!--<i class="fa fa-download"></i> Download Theme -->
-                    <!--</a>
-                <!--</div> -->
-			</div>
-        </div>
-		<div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img id= "portrait" class="img-responsive" src="img/portrait.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-					<span class="contactaddr">sleepyparadox<i class="fa fa-at"></i>gmail.com</span>
-                </div>
-            </div>
-            
-        </div>
-		<div class="container">
-            <div class="row">
-				<div class="twitter-wrapper">
-					<a class="twitter-timeline" href="https://twitter.com/SleepyParadox" data-widget-id="553501271915630593">Tweets by @SleepyParadox</a>
+<body>
+<div class="topbar wowload fadeInUp"></div>
+<!-- Header Starts -->
+<div class="navbar-wrapper">
+	<div class="container">
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
+			<div class="container">
+				<div class="navbar-header">
+					<!-- Logo Starts -->
+					<a class="navbar-brand" href=""><img src="img/logo.png" alt="logo"></a>
+					<!-- #Logo Ends -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
+				<!-- Nav Starts -->
+				<div class="navbar-collapse  collapse">
+					<ul class="nav navbar-nav navbar-right scroll">
+						<li class="active"><a href="#works">Projects</a></li>
+						<li ><a href="#about">About</a></li>
+						<li ><a href="#opensource">Open Source</a></li>
+					</ul>
+				</div>
+				<!-- #Nav Ends -->
 			</div>
-        </div>
-		
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-	    <div class="footer-above" id="around">
-            <div class="container">
-                <div class="row">
-					<div class="footer-col col-md-4">
-                    </div>
-                    <div class="footer-col col-md-4">
-						<h3>Around the Web</h3>
-						<ul class="list-inline">
-							<li>
-								<a title="Portfolio" href="http://don.sleepyparadox.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-user"></i></a>
-							</li>
-							<li>
-								<a title="Twitter" href="https://twitter.com/sleepyparadox" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-							</li>
-							<li>
-								<a title="GitHub" href="https://github.com/sleepyparadox" class="btn-social btn-outline"><i class="fa fa-fw fa-github-alt"></i></a>
-							</li>
-							<li>
-								<a title="Blog" href="https://sleepyparadox.wordpress.com" class="btn-social btn-outline"><i class="fa fa-fw fa-book"></i></a>
-							</li>
-							<li>
-								<a title="LinkedIn" href="https://au.linkedin.com/pub/don-logan/42/4b9/486" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-							</li>
-						</ul>
-                    </div>
-					<div class="footer-col col-md-4">
-					</div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-				<div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; don.sleepyparadox.com 2015
-                    </div>
-                </div>
-				<div class="row">
-                    <div class="col-lg-12">
-						This page based on the <a href ="https://github.com/IronSummitMedia/startbootstrap-freelancer"> startbootstrap-freelancer </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Final War 5 Dragons</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/finalwar.png" class="img-responsive img-centered" alt="">
-                            <p> Final War: 5 Dragons is a fantasy card battle game, where combat is decided through a classic turn-based puzzle.</p>
-							<ul class="list-inline item-details">
-                                <li>Software Responsibilities:
-                                    <strong> Purchases, Login Authentication, Facebook Intergration, Internal Analytics and Reports, Tools and Visual Effects </strong>
-                                </li>
-								<li>Date:
-                                    <strong>2014 - 2015 </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://play.google.com/store/apps/details?id=com.FinalWar.FiveDragons&hl=en">Play on Android</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="https://itunes.apple.com/nz/app/final-war-5-dragons/id882620144">Play on iOS</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="https://apps.facebook.com/finalwarfivedragons">Play on Facebook Canvas</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="http://www.finalwar.com/">Official Website</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Vamp</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/vamp.png" class="img-responsive img-centered" alt="">
-                            <p> Vamp is an 88-page "Choose Your Path" graphic novel about love, battle, honor... and awesome fangs!</p>
-                            <ul class="list-inline item-details">
-                                <li>Software Responsibilities:
-                                    <strong> Purchases </strong>
-                                </li>
-								<li>Date:
-                                    <strong> 2014
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://play.google.com/store/apps/details?id=com.badbunnycomics.vamp&hl=en">Play on Android</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="https://itunes.apple.com/app/vamp-comic/id875754885?mt=8">Play on iOS</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="http://www.amazon.com/Vamp-Benjamin-Ellis-ebook/dp/B00KXLGFFK/">Play on Amazon</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="http://www.badbunnycomics.com/">Official Website</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Macleans Nurdle Time</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/macleans.png" class="img-responsive img-centered" alt="">
-                            <p> The Nurdles show kids the fun way, and the right way, to brush all parts of their teeth</p>
-                            <ul class="list-inline item-details">
-								<li>Software Responsibilities:
-                                    <strong> Animation, UI, Optimization</strong>
-                                </li>
-								<li>Date:
-                                    <strong> 2012
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://play.google.com/store/apps/details?id=com.gsk.macleans.NZ&hl=en">Play on Android</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="https://itunes.apple.com/au/app/macleans-nurdle-time/id513309691?mt=8">Play on iOS</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Slots Central</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/slots.png" class="img-responsive img-centered" alt="">
-                            <p> Slots Central has a dazzling array of free to play 3 and 5 reel slots with all sorts of extra features, and more bonuses than you can poke a stick at!</p>
-							<ul class="list-inline item-details">
-                                <li>Software Responsibilities:
-                                    <strong> Facebook, Purchases, Analytics, Reports, Tools, Guild System ("MyTeams") and Visual Effects</strong>
-                                </li>
-								<li>Date:
-                                    <strong> 2013 - 2015
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://play.google.com/store/apps/details?id=com.FinalWar.FiveDragons&hl=en">Play on Android</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="https://itunes.apple.com/au/app/slots-central/id690981302?mt=8">Play on iOS</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="https://apps.facebook.com/slotscentral">Play on Facebook Canvas</a>
-                                    </strong>
-                                </li>
-								<li>
-                                    <strong><a href="http://www.slots-central.com/">Offical Website</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/blog.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/github.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-	<div class="modal-content">
+		</div>
 	</div>
-	<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-	
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+</div>
+<!-- #Header Starts -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- works -->
+<div id="works"  class=" clearfix grid"> 
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/finalwar.jpg" alt="Final War 5 Dragons"/>
+        <figcaption>
+            <h2>Final War 5 Dragons</h2>
+            <p>Games Lab<br>
+            <a href="portfolio/finalwar/" title="Final War 5 Dragons">View more</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/slotscentral.jpg" alt="Slots Central"/>
+        <figcaption>
+            <h2>Slots Central</h2>
+            <p>Games Lab<br>
+            <a href="portfolio/slotscentral/" title="Slots Central">View more</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/vamp.jpg" alt="Vamp"/>
+        <figcaption>
+            <h2>Vamp</h2>
+            <p>Games Lab<br>
+            <a href="portfolio/vamp/" title="Vamp">View more</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/macleans.jpg" alt="Mcleans Nurdle Time"/>
+        <figcaption>
+            <h2>Mcleans Nurdle Time</h2>
+            <p>Wasabi Digital<br>
+            <a href="portfolio/macleans" title="Mcleans Nurdle Time">View more</a></p>            
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/murderparty.jpg" alt="Murder Party"/>
+        <figcaption>
+            <h2>Murder Party</h2>
+            <p>Global Game Jam 2015 (48 Hours)<br>
+            <a href="portfolio/ggj2015/" title="Murder Party">View more</a></p>            
+        </figcaption>
+    </figure>
+     
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/hectic8horror.jpg" alt="Hospital Horror VR"/>
+        <figcaption>
+            <h2>Hospital Horror VR</h2>
+            <p>Hectic Jam 8 (48 Hours)<br>
+            <a href="portfolio/hectic8" title="Hospital Horror VR">View more</a></p>            
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/severed7.jpg" alt="Severed 7"/>
+        <figcaption>
+            <h2>Severed 7</h2>
+            <p>Hectic Jam 7 (48 Hours), GameBoy Jam 4<br>
+            <a href="portfolio/hectic7/" title="Severed 7">View more</a></p>            
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/haxagonvr.jpg" alt="Haxagon VR"/>
+        <figcaption>
+            <h2>Haxagon VR</h2>
+            <p>Hectic Jam 6 (48 Hours)<br>
+            <a href="portfolio/hectic6/" title="Haxagon VR">View more</a></p>            
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="img/portfolio1234x100/github.jpg" alt="GitHub"/>
+        <figcaption>
+            <h2>GitHub</h2>
+            <p>Sleepy Paradox<br>
+            <a href="https://github.com/sleepyparadox" title="GitHub">View at GitHub</a></p>            
+        </figcaption>
+    </figure>
+</div>
+<!-- works -->
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+<!-- About Starts -->
+<div id="about"  class="container spacer about">
+<h2 class="text-center wowload fadeInUp">About Don Logan</h2>  
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+  <div class="row">
+  <div class="col-sm-12 wowload fadeInUp">
+    <h4>Profile</h4>
+    <p>Don has designed and delivered critical purchasing, authentication, advertising and analytics systems for a variety of products<br>
+	(See <a href="portfolio/finalwar/">Final War 5 Dragons</a>, <a href="portfolio/slotscentral/">Slots Central</a> and <a href="portfolio/vamp/">Vamp</a>)</p>
+  </div>
+  </div>
+  
+  <div class="row">
+  <div class="col-sm-12 wowload fadeInUp">
+    <h4>Skills</h4>
+  </div>
+  </div>
+  
+  <div class="row">
+  <div class="col-sm-6 wowload fadeInUp">
+	<li>Design Documentation</li><br>
+	<li>C#, SQL, JavaScript, HTML</li><br>
+	<li>C++, CSS, Python & LUA</li><br>
+	<li>Git, TFS Perforce<</li><br>
+	<li>Unity3D</li><br>
+	<li>Amazon AWS, Azure</li><br>
+	<li>ASP .NET</li><br>
+	<li>Entity Framework</li><br>
+	<li>In-app purchases</li><br>
+	<li>Analytics & reporting</li><br>
+	<li>Facebook Integration</li><br>
+	<li>Advertising integration</li><br>
+	<li>Automated testing & alerts</li><br>     
+  </div>
+  <div class="col-sm-6 wowload fadeInUp">
+	<li>Jira, Trello & TFS Bug Tracking</li><br>
+	<li>User authentication</li><br>
+	<li>Management tools</li><br>
+	<li>Push notifications</li><br>
+	<li>Local notifications</li><br>
+	<li>Rapid prototyping</li><br>
+	<li>Networking TCP/IP</li><br>
+	<li>Restful HTTP</li><br>
+	<li>Shaders</li><br>
+	<li>Animation & particle systems</li><br>
+	<li>AI decision making</li><br>
+	<li>Pathfinding</li><br>
+	<li>Behaviour-trees</li><br> 
+  </div>
+  </div>
+</div>
+<!-- #About Ends -->
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
+<!-- Open Source Starts -->
+<div id="opensource"  class="container spacer about">
+<h2 class="text-center wowload fadeInUp">Open Source Libraries</h2>  
 
-	<script src="js/mixpanel.js"></script>
-	
-	
+  <div class="row">
+  <div class="col-sm-6 wowload fadeInUp">
+    <h4>uSquid</h4>
+    <p>Unity prototyping toolkit to get the most out of visual studio.<br>
+	Found at <a href="https://github.com/sleepyparadox/uSquid">https://github.com/sleepyparadox/uSquid</a>
+	</p>
+  </div>
+  <div class="col-sm-6 wowload fadeInUp">
+    <h4>TinyCoro</h4>
+    <p>A simple coroutine class for Unity<br>
+	Found at <a href="https://github.com/sleepyparadox/TinyCoro">https://github.com/sleepyparadox/TinyCoro</a>
+	</p>
+  </div>
+  </div>
+</div>
+<!-- #About Ends -->
+
+<!-- Footer Starts -->
+<div class="footer text-center">
+	<div class="row">
+	<div class="col-sm-12 wowload fadeInUp">
+	<br>
+	<ul class="list-inline">
+		<li>
+			<a title="Portfolio" href="http://don.sleepyparadox.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-user"></i></a>
+		</li>
+		<li>
+			<a title="Twitter" href="https://twitter.com/sleepyparadox" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+		</li>
+		<li>
+			<a title="GitHub" href="https://github.com/sleepyparadox" class="btn-social btn-outline"><i class="fa fa-fw fa-github-alt"></i></a>
+		</li>
+		<li>
+			<a title="Blog" href="https://sleepyparadox.wordpress.com" class="btn-social btn-outline"><i class="fa fa-fw fa-book"></i></a>
+		</li>
+		<li>
+			<a title="LinkedIn" href="https://www.linkedin.com/in/sleepyparadox" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+		</li>
+	</ul>
+	</div>
+	</div>
+</div>
+<!-- # Footer Ends -->
+
+<a href="#works" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
+
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title">Title</h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->    
+</div>
+
+
+
+<!-- jquery -->
+<script src="cyrus/assets/jquery.js"></script>
+
+<!-- wow script -->
+<script src="cyrus/assets/wow/wow.min.js"></script>
+
+
+<!-- boostrap -->
+<script src="cyrus/assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+
+<!-- jquery mobile -->
+<script src="cyrus/assets/mobile/touchSwipe.min.js"></script>
+<script src="cyrus/assets/respond/respond.js"></script>
+
+<!-- gallery -->
+<script src="cyrus/assets/gallery/jquery.blueimp-gallery.min.js"></script>
+
+<!-- custom script -->
+<script src="cyrus/assets/script.js"></script>
+
+<script src="js/mixpanel.js"></script>
+
 </body>
-
 </html>
