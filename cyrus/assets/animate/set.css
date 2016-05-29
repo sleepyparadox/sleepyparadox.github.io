@@ -625,7 +625,10 @@ figure.effect-oscar h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
+	/*Don't start title in weird position*/
+	transform: translate3d(0,0%,0);
+	/*Add shadow to make titles readable on images*/
+	text-shadow: #000 0px 0px 10px;
 }
 
 figure.effect-oscar figcaption::before,
