@@ -36,7 +36,21 @@ h2 {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem; }
-
+  
+ .portfolio-royal-box {
+	background-color: #e6eaed
+ }
+ 
+ .portfolio-img {
+	display:flex;
+	justify-content:center;
+	align-items:center; }
+ .portfolio-vid {
+	display:flex;
+	justify-content:center;
+	align-items:center; 
+	background-color: #000000}
+ 
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
@@ -112,4 +126,4 @@ section.resume-section {
 a {
   color: #2f3f46; }
   a:hover, a:focus, a:active {
-    color: #824027; }
+    color: #2f3f46; }
