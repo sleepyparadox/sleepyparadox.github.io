@@ -27,47 +27,63 @@
 		<div class="row vbottom">
             <div class="col-sm col-10 offset-1">
 			
-				<div id="controls-wait" class="form-group">
+				<div id="controls-ready" class="form-group">
 				
 					<div class="row">
 						<div class="col-12 text-primary text-center">
 							<div class="alert alert-alert-secondary">
-								Please wait
-								</div>
+								You are connected<br>Please wait
+							</div>
 						</div>
 					</div>
 				</div>
+				
+				<div id="controls-wait" class="form-group"  hidden="true">
+
+					<div class="row">
+						<div class="col-8 offset-2 text-center">
+							<div class="form-group">
+								<label for="name-input">Name</label>
+								<input type="text" class="form-control" id="name-input" aria-describedby="name input" placeholder="name">
+							</div>
+						</div>
+					</div>
+					<br><br>
+					<div class="row">
+						<div class="col-6 offset-3 text-center">
+							<div class="btn btn-danger" ontouchstart="ready()" onmousedown="ready()">
+								<span>Ready</span>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
 				
 				<div id="controls-conductor" class="form-group" hidden="true">
 				
 					<div class="row">
 						<div class="col-12 text-primary text-center">
 							<div class="alert alert-alert-secondary">
-								<strong>Eleminate</strong> cars to score points
+								You are the disgruntled <strong>CONDUCTOR</strong> 
+								<br>
+								<strong>DESTROY</strong> cars to <strong>SCORE</strong>
 								</div>
 						</div>
 					</div>
-					
-					<div class="custom-control custom-radio">
-						<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="" ontouchstart="setlights(true)">
-						<label class="custom-control-label btn btn-success btn-block" for="customRadio1">Green Light</label>
-					</div>
-					<br>
-					<div class="custom-control custom-radio">
-						<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" ontouchstart="setlights(false)">
-						<label class="custom-control-label btn btn-danger btn-block" for="customRadio2">Red Light</label>
-					</div>
-					<br>
 					<br>
 					<div class="row">
-						<div class="col-6 offset-3 text-center">
-							<div class="btn btn-danger" ontouchstart="calltrain()" onmousedown="honk()">
-								<i class="fa fa-train fa-5x"></i>
-								<br><br>
-								<span>Summon train</span>
+						<div class="col-6 text-center">
+							<div class="btn btn-danger btn-block" ontouchstart="setlights(false)" onmousedown="setlights(false)">
+								<i class="fa fa-truck fa-flip-horizontal fa-5x"></i>
 							</div>
 						</div>
-					</div>
+						<div class="col-6 text-center">
+							<div class="btn btn-success btn-block" ontouchstart="setlights(true)" onmousedown="setlights(true)">
+								<i class="fa fa-car fa-5x"></i>
+							</div>
+						</div>
+                    </div>
 				</div>
 				
 				
@@ -76,17 +92,17 @@
 					<div class="row">
 						<div class="col-12 text-primary text-center">
 							<div class="alert alert-alert-secondary">
-								<strong>Survive</strong> the crossing to score points
-								</div>
+								You are a <strong>CAR</strong> 
+								<br>
+								<strong>SURVIVE</strong> the crossing to <strong>SCORE</strong>
+							</div>
 						</div>
 					</div>
-					
+					<br>
                     <div class="row">
 						<div class="col-6 offset-3 text-center">
 							<div class="btn btn-danger" ontouchstart="honk()" onmousedown="honk()">
 								<i class="fa fa-bullhorn fa-5x"></i>
-								<br><br>
-								<span>Honk</span>
 							</div>
 						</div>
 					</div>
@@ -103,7 +119,6 @@
 								<i class="fa fa-forward fa-5x"></i>
 							</div>
 						</div>
-						
                     </div>
                 </div>
             </div>

@@ -52,6 +52,11 @@ function init() {
 				$('#controls-car').removeAttr('hidden');
 			else
 				$('#controls-car').attr('hidden', true);
+			
+			if(role == "Ready")
+				$('#controls-ready').removeAttr('hidden');
+			else
+				$('#controls-ready').attr('hidden', true);
         }
     };
 }
@@ -80,3 +85,8 @@ function calltrain()
     airconsole.message(AirConsole.SCREEN, { "type": "calltrain", "data": null })
 }
 
+function ready() 
+{
+	var name = $('#name-input').val();
+    airconsole.message(AirConsole.SCREEN, { "type": "ready", "data": name })
+}
