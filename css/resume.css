@@ -7,7 +7,10 @@ body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
   color: #59656b; }
-
+iframe{
+	border: 4px solid black;
+	background-color: black
+}
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -48,8 +51,7 @@ h2 {
  .portfolio-vid {
 	display:flex;
 	justify-content:center;
-	align-items:center; 
-	background-color: #000000}
+	align-items:center; }
  
 .list-social-icons a {
   color: #495057; }
